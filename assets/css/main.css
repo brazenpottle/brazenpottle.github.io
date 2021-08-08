@@ -3799,6 +3799,7 @@ input, select, textarea {
 			text-align: center;
 		}
 
+
 		#main > .post {
 			padding: 8rem 8rem 6rem 8rem ;
 		}
@@ -4006,9 +4007,33 @@ input, select, textarea {
 			color: #717981;
 		}
 
-		#footer blockquote {
-			border-left-color: #e2e2e2;
+		#footer section.footer-quote {
+			max-width: 66%;
+			padding-left: 15%;
 		}
+
+		#footer .footer-quote blockquote {
+			border-left-color: #e2e2e2;
+			border-left-style: double;
+			/* text-indent: -0.2em; */
+		}
+		#footer .footer-quote h3 {
+			text-align: right;
+			max-width: 66%;
+		}
+		/* @supports (hanging-punctuation: first) {
+			#footer blockquote {
+				border-left-color: #e2e2e2;
+				text-indent: 0;
+				hanging-punctuation: first;
+			}
+		}
+		#footer blockquote::before {
+			content: open-quote;
+		}
+		#footer blockquote::after {
+			content: close-quote;
+		} */
 
 		#footer code {
 			background: rgba(220, 220, 220, 0.5);
