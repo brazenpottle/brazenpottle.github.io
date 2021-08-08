@@ -4007,21 +4007,12 @@ input, select, textarea {
 			color: #717981;
 		}
 
-		#footer section.footer-quote {
-			max-width: 66%;
-		}
-
 		#footer section.footer-quote blockquote {
 			border-left-color: #e2e2e2;
 			border-left-style: double;
 		}
 		#footer .footer-quote h3 {
 			text-align: right;
-		}
-		#footer section.footer-quote blockquote.stats-wall-end-quote {
-			margin-left: 0;
-			border-left-color: #e2e2e2;
-			border-left-style: double;
 		}
 
 		#footer code {
